@@ -1,0 +1,14 @@
+.agu {height: 300px;}
+.bio {background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0)), url(https://images.unsplash.com/photo-1531391468402-01d7c7680bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybiUyMGZlZXR8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 500px;}
+.text {font-family: verdana;
+    font-size: 20px;
+background-color: rgba(128, 128, 128, 0.829);
+margin: 10px;}
