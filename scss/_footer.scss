@@ -7,3 +7,8 @@ padding: 5px;}
 .f1 {color: white; }
 .f4 { color: white; }
 .bandera {height: 40px;}
+@media screen and (max-width:990px){
+    .footer {display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;}}

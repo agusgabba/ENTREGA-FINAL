@@ -1,0 +1,16 @@
+.container-fluid {display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+align-items: center !important;}
+
+.navbar {background-color: rgb(85, 85, 85) !important;}
+
+.navbar-brand {margin-right: 100px !important;}
+
+.nav-link {color: white !important;
+margin-left: 50px !important;
+margin-right: 50px !important;
+transition-delay: 0.03s !important;
+transition-timing-function: ease !important;}
+.nav-link:hover { text-decoration: underline !important;
+color: rgb(253, 199, 208) !important;}
