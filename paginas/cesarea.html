@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--link css-->
+    <link rel="stylesheet" href="../css/pruebacss.css">
+    <title>Cesarea</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="data:image/png;base64,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" alt="logoph" width="80" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">MODO FINALIZACION</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../paginas/partovaginal.html">PARTO VAGINAL</a></li>
+                <li><a class="dropdown-item" href="../paginas/cesarea.html">CESAREA</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/consentimiento.html">CONSENTIMIENTO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/registro.html">REGISTRO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled">ARG</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+    </header>
+    <main class="parto">
+        <div class="t">
+            <h1 class="h1">Cesarea</h1>
+            <p class="text">Es una intervención quirúrgica en la cual se realiza una incisión en el abdomen (laparotomía) y el útero de la madre para extraer uno o más bebés.
+Dicha intervención tiene sus orígenes en la historia humana desde las cesáreas post mortem ya conocidas y practicadas en la antigua Roma, tal y como se contemplaba en la Lex Caesarea: una mujer que muriese durante el embarazo tardío debía ser sometida a esta intervención con la finalidad de intentar salvar la vida del feto.
+El primer dato que se tiene de una mujer que sobrevivió a una cesárea fue en Alemania en el año 1500. Se cree que Jacob Nufer, un castrador de cerdos, le hizo esta operación a su esposa tras una prolongada labor. La mayoría de las veces, el procedimiento tenía una alta mortalidad. Viajeros europeos en la región de los grandes lagos de África observaron durante el siglo XIX secciones cesáreas que eran efectuadas de forma regular. La madre expectante era normalmente anestesiada con alcohol y se usaba una mezcla de hierbas para mejorar la recuperación.
+La OMS suele recomendar su uso cuando un parto vaginal podría conducir a complicaciones médicas, la cual debiera ser utilizada sólo en un 15 a 30% de los casos.
+Durante los controles obstétricos, su médico siempre deberá mostrarle cuáles son las indicaciones médicas de la cesárea y cuáles son sus pros y sus contras en caso de realizarse sin una indicación específica.
+Debe tenerse en cuenta que, aunque el parto vía vaginal también lleva implícito algunos riesgos de complicación, la cesárea al ser una laparotomía siempre trae consigo más riesgos y un mayor tiempo de recuperación que el parto, encontrándose en algunos casos mayor incidencia de dolor en la cesárea.
+El obstetra brindará el asesoramiento adecuado para tomar una decisión que sea bipartita y brinde seguridad del paciente obteniéndose un resultado satisfactorio.</p>
+    </div>
+    <div>
+    <video controls class="video">
+        <source src="../fotos/Así es una Cesárea.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="socialbar">
+        <a href="" class="icon icon-facebook2" target="_blank"></a>
+        <a href="" class="icon icon-instagram" target="_blank"></a>
+        <a href="" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="" class="icon icon-twitter" target="_blank"></a>
+    </div>
+</main>
+<footer class="footer">
+    <div>
+        <p class="f1">Dra Agustina Gabba</p>
+    </div>
+    <div>
+        <img src="https://m.media-amazon.com/images/I/6165Jifl3qL._AC_SX522_.jpg" alt="banderaarg" class="bandera">
+    </div>
+    <div>
+        <p class="f1">Todos los derechos reservados</p>
+    </div>
+</footer>
+<!--scrip bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
