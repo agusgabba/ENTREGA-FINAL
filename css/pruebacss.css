@@ -15,21 +15,20 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-right: 200px;
-  margin-left: 0px;
-  padding-right: 50px; }
+  margin-top: 100px;
+  margin-bottom: 100px; }
   @media screen and (max-width: 990px) {
     .titulos {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-right: 0px;
-      padding-right: 0px; } }
+      margin-top: 50px;
+      margin-bottom: 50px; } }
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url(https://images.unsplash.com/photo-1531391468402-01d7c7680bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3Ym9ybiUyMGZlZXR8ZW58MHx8MHx8&w=1000&q=80);
@@ -38,17 +37,21 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 550px; }
+  height: 2000px; }
   @media screen and (max-width: 990px) {
     .main {
       display: flex !important;
       flex-direction: column !important;
       align-items: center !important;
       width: 100%;
-      height: 600px; } }
+      height: 2000px; } }
 
 .carousel {
-  margin: 0px !important; }
+  margin-top: 100px !important;
+  margin-bottom: 100px !important; }
+  @media screen and (max-width: 990px) {
+    .carousel {
+      width: 300px !important; } }
 
 .h2 {
   font-family: 'DynaPuff', cursive;
@@ -99,10 +102,31 @@
 .carousel-caption {
   background-color: rgba(255, 255, 255, 0.562) !important; }
 
-@media screen and (max-width: 990px) {
-  .carouselExampleDark {
-    width: 300px !important;
-    height: 700px !important; } }
+.algdudas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  @media screen and (max-width: 990px) {
+    .algdudas {
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 100px;
+      width: 100%; } }
+
+.dudas {
+  margin-right: 50px; }
+
+.linea {
+  width: 100%; }
+
+.pr {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 500px; }
+
+.pr:hover {
+  width: 700px; }
 
 .footer {
   background-color: black;
@@ -349,20 +373,15 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 800px; }
+  height: 1200px; }
   @media screen and (max-width: 990px) {
     .parto {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: auto;
-      height: auto; } }
+      height: 100%; } }
 
-.t {
-  height: 800px;
-  width: 70%; }
-  @media screen and (max-width: 990px) {
-    .t {
-      height: auto;
-      width: auto;
-      margin: 10px; } }
+@media screen and (max-width: 990px) {
+  .t {
+    margin-bottom: 10px; } }
